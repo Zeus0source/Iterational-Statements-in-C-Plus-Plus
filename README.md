@@ -47,5 +47,106 @@ The Logic and conditional flow of the statements were seen through the following
 + reversing of integer values
 + Simple login through password
 + Patterns(Star Patterns, Floyd's series)
+
+# Algorithms:
+For Floyd's Series:
+
+Step 1: Start
+
+Step 2: Initialize variables:
+
+  - i and j for loop counters
+  
+  - x = 1 to keep track of numbers to print
+  
+  - n = 4 for number of rows (can be taken as input too)
+  
+Step 3: Loop i from 1 to n (inclusive):
+
+  a. Loop j from 1 to i (inclusive):
+  
+    - Print value of x followed by a space
+    
+    - Increment x by 1
+    
+    - Print a newline 
+    
+  b. Print a blank line after each row (also inside outer loop)
+  
+Step 4: End
+
+For Alphabet Pattern:
+
+Step 1: Start
+
+Step 2: Initialize variables:
+
+  - i and j for loop control
+  
+  - ch = 'A' to store the current character to print
+  
+  - n = 4 to define the number of rows
+  
+Step 3: Loop i from 1 to n (inclusive):
+
+  a. Loop j from 1 to i (inclusive):
+  
+    - Print the current character ch
+    
+    - Increment ch to the next character (e.g., 'A' → 'B')
+    
+  b. Print a newline after each row
+  
+Step 4: End
+
+For Star Patterns:
+
+Step 1: Start
+Step 2: Initialize variables:
+
+  - i, j for controlling loops
+  - n = 5 to set the number of rows
+  
+Step 3: Loop i from 1 to n (inclusive):
+
+  a. Loop j from 1 to i (inclusive):
+  
+    - Print * without newline
+    
+  b. After inner loop ends, print a newline (endl) to move to the next row
+  
+Step 4: End
+
+
+For Reversing of Integers:
+
+Step 1: Start
+
+Step 2: Declare variables:
+
+n: to store the input number (PRN/Roll number)
+
+x: to hold the last digit of n
+
+s: to store the reversed number (initialize s = 0)
+
+Step 3: Input the number n
+
+  cin >> n
+  
+Step 4: Loop while n > 0
+
+  a. Extract last digit: x = n % 10
+  
+  b. Append digit to reversed number: s = s * 10 + x
+  
+  c. Remove last digit from original number: n = n / 10
+
+Step 5: Print the reversed number s
+
+Step 6: End
+
+
+
 # Conclusion:
 Through the programs , The logic and operation of loops in C++ has been studied.
